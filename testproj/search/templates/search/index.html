@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center><h1>Hi Jayanth</h1></center>
+    <center><a href="/blogindex/">Test link to check wagtail home page</a></center>
+    <form method="post" action="/form/">
+        {% csrf_token %}
+        <input type="text" name="lastname">
+        <input type="submit">
+    </form>
+</body>
+</html>
